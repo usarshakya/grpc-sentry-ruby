@@ -1,0 +1,56 @@
+PATH
+  remote: .
+  specs:
+    grpc-sentry-ruby (0.1.0)
+      grpc (~> 1.38)
+      sentry-ruby (~> 4.5)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.3)
+    concurrent-ruby (1.1.9)
+    faraday (1.4.2)
+      faraday-em_http (~> 1.0)
+      faraday-em_synchrony (~> 1.0)
+      faraday-excon (~> 1.1)
+      faraday-net_http (~> 1.0)
+      faraday-net_http_persistent (~> 1.1)
+      multipart-post (>= 1.2, < 3)
+      ruby2_keywords (>= 0.0.4)
+    faraday-em_http (1.0.0)
+    faraday-em_synchrony (1.0.0)
+    faraday-excon (1.1.0)
+    faraday-net_http (1.0.1)
+    faraday-net_http_persistent (1.1.0)
+    google-protobuf (3.17.3-universal-darwin)
+    googleapis-common-protos-types (1.0.6)
+      google-protobuf (~> 3.14)
+    grpc (1.38.0-universal-darwin)
+      google-protobuf (~> 3.15)
+      googleapis-common-protos-types (~> 1.0)
+    method_source (1.0.0)
+    multipart-post (2.1.1)
+    pry (0.14.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    rake (13.0.3)
+    ruby2_keywords (0.0.4)
+    sentry-ruby (4.5.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      faraday (>= 1.0)
+      sentry-ruby-core (= 4.5.1)
+    sentry-ruby-core (4.5.1)
+      concurrent-ruby
+      faraday
+
+PLATFORMS
+  x86_64-darwin-19
+
+DEPENDENCIES
+  grpc-sentry-ruby!
+  pry (~> 0.14.1)
+  rake (>= 13.0.3)
+
+BUNDLED WITH
+   2.2.15
